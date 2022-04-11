@@ -2,6 +2,7 @@ package Main;
 
 import java.util.Scanner;
 
+import C.C;
 import D.D;
 
 public class Main {
@@ -18,6 +19,7 @@ public class Main {
 			case 2:
 				break;
 			case 3:
+				com = new C();
 				break;
 			case 4:
 				com = new D();
