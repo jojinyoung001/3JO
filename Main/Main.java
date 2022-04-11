@@ -21,11 +21,12 @@ public class Main {
 				break;
 			case 4:
 				com = new D();
-				com.whoname();
-				com.D();
+				
 				break;
 
 			}
+			com.whoname();
+			com.기능();
 		}
 
 	}
