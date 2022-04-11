@@ -2,6 +2,7 @@ package Main;
 
 import java.util.Scanner;
 
+import A.A;
 import D.D;
 
 public class Main {
@@ -14,6 +15,7 @@ public class Main {
 			ch = sc.nextInt();
 			switch (ch) {
 			case 1:
+				com = new A();
 				break;
 			case 2:
 				break;
@@ -21,7 +23,7 @@ public class Main {
 				break;
 			case 4:
 				com = new D();
-				
+
 				break;
 
 			}
