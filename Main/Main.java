@@ -1,8 +1,13 @@
-package Main;
+wqckage Main;
 
 import java.util.Scanner;
 
+
 import BBB.B;
+
+import C.C;
+import D.D;
+
 
 public class Main {
 	public static void main(String[] args) {
@@ -19,6 +24,7 @@ public class Main {
 				com = new B();
 				break;
 			case 3:
+				com = new C();
 				break;
 			case 4:
 				com = new D();
